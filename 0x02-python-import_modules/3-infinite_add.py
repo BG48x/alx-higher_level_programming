@@ -14,4 +14,4 @@ def add_arg(argv):
 
         if __name__ == "__main__":
             import sys
-            add arg(sys.argv)
+            add_arg(sys.argv)
