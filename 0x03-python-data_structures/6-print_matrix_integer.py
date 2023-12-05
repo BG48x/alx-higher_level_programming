@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-def primt_matric_Integer(matrix=[[]]):
+def print_matrix_intger(matrix=[[]]):
     if not matrix:
         return None
     for submatrix in matrix:
@@ -8,4 +8,3 @@ def primt_matric_Integer(matrix=[[]]):
         for i in range(len(submatrix)):
             print("{:d}".format(submatrix[i]),
                     end="\n" if i is len(submatrix) - 1 else " ")
-
